@@ -1,3 +1,7 @@
+body {
+	background-color: rgb(190, 190, 190);
+}
+
 #header {
 	background-color: rgb(67, 177, 162);
 	height: 60px;
@@ -5,10 +9,10 @@
 
 #name {
 	color: white;
-	line-height: 60px;
 }
 
-#navLinks {
+.nav-item {
+	color: black;
 }
 
 h2 {
