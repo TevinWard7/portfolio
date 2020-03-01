@@ -1,31 +1,19 @@
-body {
-	background-color: rgb(190, 190, 190);
-}
-
 @font-face {
 	src: url(Assets/fonts/Apercu/Apercu\Bold.otf);
 	font-family: apercubold;
 }
 
-#name {
-	color: white;
+body {
+	font-family: apercubold;
+	color: black;
 }
 
 #header {
-	background-color: rgb(67, 177, 162);
 	height: 60px;
-}
-
-.nav {
-	background-color: white;
 }
 
 .nav-item {
 	color: black;
-}
-
-h2 {
-	color: rgb(67, 177, 162);
 }
 
 .myContainer {
