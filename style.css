@@ -18,12 +18,22 @@ body {
 	top: 0;
 }
 
-.nav-item {
+.nav-link {
 	color: black;
+}
+
+.nav-link:hover, .nav-link:active {
+	color: white;
+	border: 10px solid yellow;
+	background-image: url(assets/images/Baroque_Rubens_Assumption-of-Virgin-3.png);
+	background-size: cover;
 }
 
 .myContainer {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 30px;
 	background-color: white;
+	background-image: url(assets/Images/baroquearch.jpg;
+	background-repeat: no-repeat;
 }
+
