@@ -1,10 +1,10 @@
 @font-face {
 	src: url(Assets/fonts/Apercu/Apercu\Bold.otf);
-	font-family: apercubold;
+	font-family: apercu;
 }
 
 body {
-	font-family: apercubold;
+	font-family: apercu;
 	color: black;
 }
 
@@ -20,6 +20,6 @@ body {
 }
 
 .myContainer {
+	margin: 30px;
 	background-color: white;
-	margin-top: 20px;
 }
