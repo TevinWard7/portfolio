@@ -1,5 +1,5 @@
 @font-face {
-	src: url(Assets/fonts/Apercu/Apercu\Bold.otf);
+	src: url(assets/fonts/Apercu/Apercu\Bold.otf);
 	font-family: apercu;
 }
 
@@ -9,7 +9,7 @@ body {
 	font-weight: 200;
 	line-height: 35px;
 	color: black;
-	background-image: url(assets/Images/FAVPNG_sistine-chapel-ceiling-the-last-judgement-lunette-painting_wReh4WFX.png);
+	background-image: url(assets/images/favpng_sistine-chapel-ceiling-the-last-judgement-lunette-painting_wReh4WFX.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
