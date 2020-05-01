@@ -5,17 +5,14 @@
 
 body {
 	font-family: apercu;
-	font-size: large;
-	font-weight: 200;
-	line-height: 35px;
-	color: black;
-	background-image: url(assets/images/favpng_sistine-chapel-ceiling-the-last-judgement-lunette-painting_wReh4WFX.png);
+	color: white;
+	background-image: url(assets/images/david.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
+	background-position: left;
+	background-size: 100% cover;
 }
 
-#header {
+#navbar {
 	margin: 30px;
 	height: 70px;
 	position: sticky;
@@ -23,13 +20,13 @@ body {
 }
 
 .nav-link {
-	color: black;
+	color: white;
 }
 
 .nav-link:hover, .nav-link:active {
-	color: white;
-	background-image: url(assets/images/Baroque_Rubens_Assumption-of-Virgin-3.png);
-	background-size: cover;
+	color: black;
+	background-image: url(assets/images/pngwave.png);
+	background-size: contain;
 }
 
 .myContainer {
