@@ -1,5 +1,6 @@
-$(document).ready(function () {
+$("#pause").hide();
 
+$(document).ready(function () {
 
     const displayNewHello = () => {
 
@@ -13,10 +14,22 @@ $(document).ready(function () {
 
     const interval = setInterval(displayNewHello, 1000);
 
-    const music = $("#music")
+    const music = $("#music");
 
-    $("#sound-icon").on("click", () => {
+    $("#play").on("click", () => {
+
         music[0].play();
+        $("#play").hide();
+        $("#pause").show();
+
     });
+
+    $("#pause").on("click", () => {
+
+        music[0].pause();
+        $("#pause").hide();
+        $("#play").show();
+
+    })
 
 });
