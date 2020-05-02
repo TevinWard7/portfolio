@@ -11,15 +11,23 @@ $(document).ready(function () {
 
         // Array containing colors 
         const colors = [
-            "#ff0000", "#00ff00", "#ffcad4",
-            "#ff3333", "#ffff00"
+            // Red
+            "#ff1654",
+            //Green
+            "#b2dbbf",
+            // Pink
+            "#ffcad4",
+            // Red
+            "#ff1654",
+            // Yellow
+            "#f3ffbd"
         ];
 
         // Generates randomnumber
         const randomNumber = Math.floor(Math.random() * 5);
 
-        $("#name-display").text(helloArray[randomNumber]);
-        $("#name-display").css('color', colors[randomNumber]);
+        $("#greeting-display").text(helloArray[randomNumber]);
+        $("#greeting-display").css('color', colors[randomNumber]);
 
     };
 

@@ -3,6 +3,11 @@
 	font-family: apercu;
 }
 
+@font-face {
+	src: url(assets/fonts/Raisonne/Raisonne_Demibold.otf);
+	font-family: raisonne;
+}
+
 body {
 	font-family: apercu;
 	color: white;
@@ -10,6 +15,13 @@ body {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 100% cover;
+}
+
+.linkedpages-bck {
+	font-family: apercu;
+	color: white;
+	background-image: none;
+	
 }
 
 #navbar {
@@ -23,7 +35,7 @@ body {
 	color: white;
 }
 
-.nav-link:hover, .nav-link:active {
+#current-link, .nav-link:hover {
 	color: black;
 	background-image: url(assets/images/pngwave.png);
 	background-size: contain;
@@ -35,7 +47,13 @@ body {
 	text-align: center;
 }
 
+#greeting-display {
+	font-family: raisonne;
+}
+
 footer {
 	text-align: center;
+	position: sticky;
+	bottom: 0;
 }
 
