@@ -51,6 +51,10 @@ body {
 	text-align: center;
 }
 
+.linked-pages-text {
+	color: black;
+}
+
 #greeting-display {
 	font-family: raisonne;
 }
