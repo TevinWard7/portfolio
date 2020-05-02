@@ -1,5 +1,5 @@
 @font-face {
-	src: url(assets/fonts/Apercu/Apercu\Bold.otf);
+	src: url(assets/fonts/Apercu/Apercu\ Regular.otf);
 	font-family: apercu;
 }
 
@@ -32,6 +32,10 @@ body {
 
 .myContainer {
 	margin: 200px;
+	text-align: center;
+}
+
+footer {
 	text-align: center;
 }
 

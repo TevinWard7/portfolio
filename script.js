@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     const displayNewHello = () => {
 
         const helloArray = [
@@ -11,9 +10,11 @@ $(document).ready(function () {
 
         $("#name-display").text(helloArray[randomNumber]);
 
+        const interval = setInterval(displayNewHello, 1000);
+
     }
 
-    const interval = setInterval(displayNewHello, 1000);
+    displayNewHello();
 
 
 });
