@@ -47,7 +47,12 @@ body {
 }
 
 .myContainer {
-	margin: 200px;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.linksContainer {
 	text-align: center;
 }
 
@@ -65,3 +70,13 @@ footer {
 	bottom: 0;
 }
 
+@media screen and (max-width: 760px) {
+
+	body {
+		
+		background-image: url(assets/images/david.jpg);
+		background-size: cover;
+		background-repeat: repeat;
+	    background-position: bottom;
+	}
+}
