@@ -34,10 +34,11 @@ $(document).ready(function () {
     // Run the previous function every second
     const interval = setInterval(displayNewHello, 1000);
 
-    const music = $("#music");
+
 
     $("#play").on("click", () => {
 
+        const music = $("#music");
         music[0].play();
         $("#play").hide();
         $("#pause").show();
@@ -46,6 +47,7 @@ $(document).ready(function () {
 
     $("#pause").on("click", () => {
 
+        const music = $("#music");
         music[0].pause();
         $("#pause").hide();
         $("#play").show();
