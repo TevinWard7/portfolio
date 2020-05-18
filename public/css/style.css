@@ -1,0 +1,83 @@
+@font-face {
+	src: url(../fonts/Apercu/Apercu\ Pro\ Regular.otf);
+	font-family: apercu;
+}
+
+@font-face {
+	src: url(assets/fonts/Raisonne/Raisonne_Demibold.otf);
+	font-family: raisonne;
+}
+
+body {
+	font-family: apercu;
+	color: white;
+	background-image: url(../images/david.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100% cover;
+}
+
+.linkedpages-bck {
+	font-family: apercu;
+	color: white;
+	background-image: none;
+	
+}
+
+#navbar {
+	margin: 30px;
+	height: 70px;
+	position: sticky;
+	top: 0;
+}
+
+.nav-link {
+	color: white;
+}
+
+#current-link {
+	color: black;	
+}
+
+.nav-link:hover {
+	color: black;
+	background-image: url(assets/images/pngwave.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.myContainer {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.linksContainer {
+	text-align: center;
+}
+
+.linked-pages-text {
+	color: black;
+}
+
+#greeting-display {
+	font-family: raisonne;
+}
+
+footer {
+	text-align: center;
+	position: sticky;
+	bottom: 0;
+	padding: 50px;
+}
+
+@media screen and (max-width: 760px) {
+
+	body {
+		
+		background-image: url(assets/images/david.jpg);
+		background-size: cover;
+		background-repeat: repeat;
+	    background-position: bottom;
+	}
+}
