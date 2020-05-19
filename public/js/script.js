@@ -1,7 +1,7 @@
 // Hide pause icon before page loads
 $("#pause").hide();
 
-$(document).ready(function () {
+$(document).ready(() => {
 
     // Display "Hello" in a random language & color
     const displayNewHello = () => {
@@ -12,13 +12,13 @@ $(document).ready(function () {
         // Array containing colors 
         const colors = [
             // Red
-            "#ff1654",
+            // "#ff1654",
             //Green
             "#b2dbbf",
             // Pink
             "#ffcad4",
             // Red
-            "#ff1654",
+            // "#ff1654",
             // Yellow
             "#f3ffbd"
         ];
@@ -30,12 +30,10 @@ $(document).ready(function () {
         $("#greeting-display").css('color', colors[randomNumber]);
 
     };
-
     // Run the previous function every second
-    const interval = setInterval(displayNewHello, 1000);
+    const interval = setInterval(displayNewHello, 2000);
 
-
-
+    // On Clicks
     $("#play").on("click", () => {
 
         const music = $("#music");
@@ -44,7 +42,6 @@ $(document).ready(function () {
         $("#pause").show();
 
     });
-
     $("#pause").on("click", () => {
 
         const music = $("#music");
@@ -52,6 +49,6 @@ $(document).ready(function () {
         $("#pause").hide();
         $("#play").show();
 
-    })
+    });
 
 });
