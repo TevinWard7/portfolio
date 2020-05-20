@@ -71,17 +71,19 @@ body {
 }
 
 footer {
+	color: black;
 	text-align: center;
 	position: sticky;
 	bottom: 0;
 	padding: 50px;
+	font-size: small;
 }
 
 @media screen and (max-width: 760px) {
 
 	body {
 		
-		background-image: url(assets/images/david.jpg);
+		background-image: url(../images/david.jpg);
 		background-size: cover;
 		background-repeat: repeat;
 	    background-position: bottom;
