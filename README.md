@@ -1,4 +1,4 @@
 # Tevin Ward
 
 # Link to deployed site
-www.tevinward.com
+http://www.tevinward.com
