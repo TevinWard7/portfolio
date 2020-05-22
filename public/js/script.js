@@ -34,7 +34,6 @@ $(document).ready(() => {
     const helloAnimation = anime({
         targets: "#greeting-display",
         keyframes: [
-            // { rotate: 360 },
             { translateY: 0 },
             { opacity: 1 },
             { borderRadius: ['0%', '50%'] },
@@ -44,6 +43,17 @@ $(document).ready(() => {
         duration: 500,
         easing: 'easeOutElastic(1, .8)',
         loop: true
+    });
+
+    const newPageAnime = anime({
+        targets: [".myContainer", ".linksContainer"],
+        keyframes: [
+            { opacity: 0 },
+            { opacity: .5 },
+            { opacity: 1 },
+        ],
+        duration: 500,
+        easing: 'easeOutElastic(1, .8)'
     });
 
     // On Clicks
