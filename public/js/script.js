@@ -11,16 +11,14 @@ $(document).ready(() => {
 
         // Array containing colors 
         const colors = [
-            // Red
-            // "#ff1654",
-            //Green
-            "#b2dbbf",
-            // Pink
-            "#ffcad4",
-            // Red
-            // "#ff1654",
-            // Yellow
-            "#f3ffbd"
+            // Rosy brown
+            "#C8B0A6",
+            // Gainsboro
+            "#E4DCE0",
+            // Dark sea green
+            "#AFB4A7",
+            // Pale goldenrod
+            "#E8CBB1"
         ];
 
         // Generates randomnumber
