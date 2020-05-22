@@ -34,6 +34,7 @@ $(document).ready(() => {
     const helloAnimation = anime({
         targets: "#greeting-display",
         keyframes: [
+            { rotate: 360 },
             { translateY: 0 },
             { opacity: 1 },
             { borderRadius: ['0%', '50%'] },
@@ -48,6 +49,9 @@ $(document).ready(() => {
     const newPageAnime = anime({
         targets: [".myContainer", ".linksContainer"],
         keyframes: [
+            // { rotate: 360 },
+            // { translateY: 40 },
+            // { translateY: 0 },
             { opacity: 0 },
             { opacity: .5 },
             { opacity: 1 },
