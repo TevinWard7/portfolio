@@ -31,6 +31,18 @@ $(document).ready(() => {
     // Run the previous function every second
     const interval = setInterval(displayNewHello, 2000);
 
+    anime({
+        targets: "#greeting-display",
+        keyframes: [
+            { translateY: -40 },
+            { opacity: 0 },
+            { translateY: 0 }
+        ],
+        duration: 4000,
+        easing: 'easeOutElastic(1, .8)',
+        loop: true
+    });
+
     // On Clicks
     $("#play").on("click", () => {
 
