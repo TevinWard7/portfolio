@@ -29,17 +29,17 @@ $(document).ready(() => {
 
     };
     // Run the previous function every second
-    let interval = setInterval(displayNewHello, 500);
+    let interval = setInterval(displayNewHello, 200);
 
-    const animation = anime({
+    const helloAnimation = anime({
         targets: "#greeting-display",
         keyframes: [
-            { rotate: 360 },
+            // { rotate: 360 },
             { translateY: 0 },
-            { opacity: 0 },
             { opacity: 1 },
             { borderRadius: ['0%', '50%'] },
-            { scale: 3 }
+            { scale: 2 },
+            { opacity: 0 }
         ],
         duration: 500,
         easing: 'easeOutElastic(1, .8)',
