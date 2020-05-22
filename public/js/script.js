@@ -31,11 +31,15 @@ $(document).ready(() => {
     // Run the previous function every second
     let interval = setInterval(displayNewHello, 500);
 
-    animation = anime({
+    const animation = anime({
         targets: "#greeting-display",
         keyframes: [
+            { rotate: 360 },
             { translateY: 0 },
             { opacity: 0 },
+            { opacity: 1 },
+            { borderRadius: ['0%', '50%'] },
+            { scale: 3 }
         ],
         duration: 500,
         easing: 'easeOutElastic(1, .8)',
