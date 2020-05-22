@@ -15,6 +15,9 @@ body {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 100% cover;
+	position: relative;
+	padding-bottom: 58px;
+	min-height: 100vh;
 }
 
 .navbar-brand {
@@ -68,15 +71,18 @@ body {
 
 #greeting-display {
 	font-family: raisonne;
+	/* font-size: 20vh; */
 }
 
 footer {
 	color: black;
-	text-align: center;
-	position: sticky;
-	bottom: 0;
-	padding: 50px;
 	font-size: small;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
 }
 
 @media screen and (max-width: 760px) {
