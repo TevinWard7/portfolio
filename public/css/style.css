@@ -50,9 +50,14 @@ body {
 
 .nav-link:hover {
 	color: black;
-	background-image: url(../images/pngwave.png);
+	/* background-image: url(../images/pngwave.png); */
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
 }
 
 .myContainer {
