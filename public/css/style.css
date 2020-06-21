@@ -79,6 +79,39 @@ body {
 	font-size: 10vh;
 }
 
+.container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+  
+.text {
+	position: absolute;
+	height: 30%;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-size: 30px;
+	opacity: 0;
+	background-color: #e1d4c0;
+}
+
+.inside-text, .inside-text:hover {
+	color: black;
+}
+  
+.folio-image {
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	padding: auto;
+}
+
 footer {
 	color: black;
 	font-size: small;

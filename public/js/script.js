@@ -78,4 +78,29 @@ $(document).ready(() => {
 
     });
 
+    $("#app-1").on("mouseover", () => {
+        $("#folio-image-1").css("opacity", "60%");
+        $("#text-1").css("opacity", "1");
+    });
+
+    $("#app-2").on("mouseover", () => {
+        $("#folio-image-2").css("opacity", "60%");
+        $("#text-2").css("opacity", "1");
+    });
+
+    $("#app-3").on("mouseover", () => {
+        $("#folio-image-3").css("opacity", "60%");
+        $("#text-3").css("opacity", "1");
+    });
+
+    $("#app-4").on("mouseover", () => {
+        $("#folio-image-4").css("opacity", "60%");
+        $("#text-4").css("opacity", "1");
+    });
+
+    $(".container").on("mouseout", () => {
+        $(".folio-image").css("opacity", "100%");
+        $(".text").css("opacity", "0");
+    });
+
 });
