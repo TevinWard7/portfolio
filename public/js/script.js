@@ -61,6 +61,8 @@ $(document).ready(() => {
     });
 
     // On Clicks
+
+    // Play/Pause buttons for music
     $("#play").on("click", () => {
 
         const music = $("#music");
@@ -78,6 +80,8 @@ $(document).ready(() => {
 
     });
 
+
+    // Portfolio items
     $("#app-1").on("mouseover", () => {
         $("#folio-image-1").css("opacity", "60%");
         $("#text-1").css("opacity", "1");
