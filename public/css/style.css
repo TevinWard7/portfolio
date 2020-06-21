@@ -55,7 +55,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-a {
+#resume-link {
 	color: black;
 	text-decoration: underline;
 }
